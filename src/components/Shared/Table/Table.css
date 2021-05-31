@@ -1,0 +1,28 @@
+.table {
+    width: 100%;
+}
+
+.table__container {
+    overflow-y: auto;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.table__tr {
+    text-transform: capitalize;
+}
+
+.table__row:hover {
+    background-color: #3273dc;
+    color: white;
+}
+
+.table__th {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.table__message {
+    margin: 15%;
+}

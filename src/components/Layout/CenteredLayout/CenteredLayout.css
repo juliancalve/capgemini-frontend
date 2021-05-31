@@ -1,0 +1,24 @@
+.centered-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/37/Circle_diagram3.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.centered-layout__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+@media screen and ( max-width: 700px ) {
+
+    .centered-layout__card {
+        width: 100%;
+    }
+}

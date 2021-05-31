@@ -1,0 +1,26 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login__field--input {
+    margin: 10% 0 5% 0;
+    width: 100%;
+}
+
+.login__field--button {
+    margin: 10% 0;
+    width: 100%;
+}
+
+.login__button {
+    width: 100%;
+}
+
+.login__control--input, .login__input {
+    width: 100%;
+    display: inline-block;
+}

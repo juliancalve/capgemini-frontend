@@ -1,0 +1,16 @@
+.container {
+    height: 100vh!important;
+}
+
+.disable {
+    color: grey;
+    cursor: not-allowed;
+}
+
+.control .is-success {
+    background-color: #3273dc;
+}
+
+.clickeable {
+    cursor: pointer;
+}
