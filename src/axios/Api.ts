@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const defaultOptions = {
-    // baseURL: 'http://localhost:3100/api',
-    baseURL: 'https://capgemini-policy.herokuapp.com/api'
+    baseURL: 'http://localhost:3100/api',
+    // baseURL: 'https://capgemini-policy.herokuapp.com/api'
 
 };
 
